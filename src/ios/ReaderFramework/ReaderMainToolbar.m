@@ -222,7 +222,7 @@
             [self addSubview:exportButton]; titleWidth -= (iconButtonWidth + buttonSpacing);
         }
         
-        if (largeDevice == YES) // Show document filename in toolbar
+        if (false && largeDevice == YES) // Show document filename in toolbar
         {
             CGRect titleRect = CGRectMake(titleX, BUTTON_Y, titleWidth, TITLE_HEIGHT);
             
